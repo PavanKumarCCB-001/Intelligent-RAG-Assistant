@@ -4,12 +4,12 @@ import tempfile
 import streamlit as st
 from langchain_core.messages import AIMessage, HumanMessage
 
-# Ensure the parent directory is in the Python path if running directly
 import sys
 from pathlib import Path
 
-from rag import vector_store
-sys.path.append(str(Path(__file__).resolve().parent.parent))
+# Add project root to Python path
+ROOT_DIR = Path(__file__).resolve().parent.parent
+sys.path.append(str(ROOT_DIR))
 
 from config.settings import get_settings
 from utils.logger import get_logger
