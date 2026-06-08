@@ -61,7 +61,7 @@ If information is unavailable in the uploaded documents, the assistant responds 
 
 ---
 
-# 🏗️ System Architecture
+## 🏗️ System Architecture
 
 ```mermaid
 flowchart TB
@@ -83,31 +83,34 @@ flowchart TB
     style K fill:#9C27B0,color:#fff
     style M fill:#FF9800,color:#fff
 ```
+### Check the Application: 
+## https://intelligent--rag--assistant.streamlit.app
 
-# 🛠️ Tech Stack
 
-## Language
+## 🛠️ Tech Stack
+
+### Language
 
 * Python
 
-## Frameworks
+### Frameworks
 
 * LangChain
 * Streamlit
 
-## Vector Database
+### Vector Database
 
 * ChromaDB
 
-## Embedding Model
+### Embedding Model
 
 * BAAI/bge-small-en-v1.5
 
-## Large Language Model
+### Large Language Model
 
 * Llama 3 (via Groq API)
 
-## Additional Libraries
+### Additional Libraries
 
 * LangChain Chroma
 * LangChain Groq
@@ -117,7 +120,7 @@ flowchart TB
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
 ```text
 Intelligent-RAG-Assistant
@@ -164,9 +167,9 @@ Intelligent-RAG-Assistant
 
 ---
 
-# ⚙️ Installation
+## ⚙️ Installation
 
-## 1. Clone the Repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/Intelligent-RAG-Assistant.git
@@ -174,7 +177,7 @@ git clone https://github.com/your-username/Intelligent-RAG-Assistant.git
 cd Intelligent-RAG-Assistant
 ```
 
-## 2. Create Virtual Environment
+### 2. Create Virtual Environment
 
 ### Windows
 
@@ -200,7 +203,7 @@ pip install -r requirements.txt
 
 ---
 
-# 🔑 Getting a Groq API Key
+## 🔑 Getting a Groq API Key
 
 1. Visit: 
 https://console.groq.com
@@ -216,7 +219,7 @@ API Keys → Create API Key
 
 ---
 
-# ▶️ Running the Application
+### ▶️ Running the Application
 
 Start the Streamlit application:
 
@@ -232,7 +235,7 @@ http://localhost:8501
 
 ---
 
-# 📖 How to Use
+## 📖 How to Use
 
 ### Step 1
 
@@ -278,7 +281,7 @@ What is the author's main argument?
 
 ---
 
-# 📸 Screenshots
+## 📸 Screenshots
 
 ### Home
 ![Home](Home.png)
@@ -291,7 +294,7 @@ What is the author's main argument?
 
 ---
 
-# 🚧 Future Enhancements
+## 🚧 Future Enhancements
 
 * Multi-document filtering
 * Hybrid Search (BM25 + Vector Search)
@@ -302,7 +305,7 @@ What is the author's main argument?
 
 ---
 
-# 💡 Key Learnings
+## 💡 Key Learnings
 
 Through this project, I gained hands-on experience with:
 
@@ -318,7 +321,7 @@ Through this project, I gained hands-on experience with:
 
 ---
 
-# ⭐ Conclusion
+## ⭐ Conclusion
 
 The Intelligent RAG Assistant demonstrates how Retrieval-Augmented Generation can improve the reliability and accuracy of AI systems by grounding responses in user-provided documents.
 
