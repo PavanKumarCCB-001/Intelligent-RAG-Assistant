@@ -172,7 +172,7 @@ Intelligent-RAG-Assistant
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Intelligent-RAG-Assistant.git
+git clone https://github.com/PavanKumarCCB-001/Intelligent-RAG-Assistant.git
 
 cd Intelligent-RAG-Assistant
 ```
